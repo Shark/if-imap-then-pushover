@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bini (0.7.0)
+      sys-proctable
+    coderay (1.1.0)
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    method_source (0.8.2)
+    mime-types (2.6.2)
+    multi_json (1.11.2)
+    multi_xml (0.5.5)
+    pry (0.10.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pushover (1.0.4)
+      bini (= 0.7.0)
+      httparty (= 0.11.0)
+      yajl-ruby (= 1.1.0)
+    slop (3.6.0)
+    sys-proctable (0.9.8)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mail (~> 2.6.3)
+  pry (~> 0.10.2)
+  pushover (~> 1.0.4)
+
+BUNDLED WITH
+   1.10.5

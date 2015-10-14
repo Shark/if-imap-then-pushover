@@ -1,0 +1,10 @@
+imap:
+  hostname: mail.example.com
+  port: 993
+  username: john.doe@example.com
+  password: abc123
+  folder: INBOX
+  idle_timeout: 1500
+pushover:
+  app_token: APP_TOKEN
+  user: USER_ID
