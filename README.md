@@ -11,7 +11,7 @@ bundle install
 ./if-imap-then-pushover.rb
 ```
 
-To build and run a docker container:
+To build a Docker image and run it in a container:
 ```
 git clone https://github.com/Shark/if-imap-then-pushover.git
 ./docker_build.sh
